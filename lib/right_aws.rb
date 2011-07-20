@@ -32,7 +32,7 @@ require "openssl"
 require "digest/sha1"
 
 require 'rubygems'
-require 'right_http_connection'
+gem 'right_http_connection, '= 1.2.4'
 
 $:.unshift(File.dirname(__FILE__))
 require 'awsbase/version'
